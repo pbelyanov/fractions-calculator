@@ -18,6 +18,9 @@ function App() {
     changeLCD(leastCommonDenominator(arrayDenominators));
   };
 
+  // 1. Add validation for spaces and remove them
+  // 2. Add validation for dots and replace the dots with commas
+
   return (
     <div className="App">
       <form id="fractions-calulator" onSubmit={onFormSubmit}>
